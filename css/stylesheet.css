@@ -1,0 +1,54 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#about-me h2 {
+  text-align: center;
+}
+
+.wattpad {
+  color: orange;
+}
+
+img.wattpad {
+  max-width: 100%;
+}
+
+.col-md-4 {
+  
+}
+
+#up-to .container {
+  width: 180px;
+  height: 140px;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#about-me #up-to img {
+  vertical-align: middle;
+  width: 140px;
+}
+
+#about-me #up-to img.node {
+  height: 70px;
+  width: 110%;
+}
+
+#up-to > div > div:nth-child(2) .container {
+  background-color: #303030;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#up-to .col-md-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
