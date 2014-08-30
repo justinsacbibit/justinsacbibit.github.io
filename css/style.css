@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+.medium-3 {
+  text-align: center;
+}
+
 div.centered {
   position: absolute;
   left: 50%;
@@ -21,7 +25,7 @@ div.centered {
 }
 
 .button {
-  width: 150px;
+  width: 100%;
 }
 
 h4.subheader {
