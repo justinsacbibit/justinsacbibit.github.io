@@ -9034,12 +9034,12 @@ section:not(.top-bar-section) {
   margin-bottom: 30px;
 }
 /* line 15, ../scss/app.scss */
-#home #buttons {
+#home .medium-3 {
   text-align: center;
 }
 /* line 18, ../scss/app.scss */
-#home #buttons li a {
-  width: 85%;
+#home .medium-3 .button {
+  width: 100%;
 }
 /* line 23, ../scss/app.scss */
 #home h1 {
