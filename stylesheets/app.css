@@ -9022,37 +9022,38 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 5, ../scss/app.scss */
+/* line 4, ../scss/app.scss */
+body {
+  padding-top: 50px;
+}
+
+/* line 9, ../scss/app.scss */
 section:not(.top-bar-section) {
   padding: 10px 25px;
 }
 
-/* line 10, ../scss/app.scss */
+/* line 14, ../scss/app.scss */
 #home {
-  background-color: #eee;
   padding: 40px 25px;
   margin-bottom: 30px;
-}
-/* line 15, ../scss/app.scss */
-#home .large-3 {
   text-align: center;
 }
-/* line 18, ../scss/app.scss */
+/* line 21, ../scss/app.scss */
 #home .large-3 .button {
   width: 100%;
 }
-/* line 23, ../scss/app.scss */
+/* line 26, ../scss/app.scss */
 #home h1 {
   font-weight: 500;
   line-height: 1.1;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 23, ../scss/app.scss */
+  /* line 26, ../scss/app.scss */
   #home h1 {
     font-size: 63px;
   }
 }
-/* line 32, ../scss/app.scss */
+/* line 35, ../scss/app.scss */
 #home i {
   font-size: 20px;
 }

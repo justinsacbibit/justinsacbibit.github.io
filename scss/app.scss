@@ -1,6 +1,10 @@
 @import "settings";
 @import "foundation";
 
+body {
+  padding-top: 50px;
+}
+
 section {
   &:not(.top-bar-section) {
     padding: 10px 25px;
@@ -8,22 +12,21 @@ section {
 }
 
 #home {
-  background-color: #eee;
   padding: 40px 25px;
   margin-bottom: 30px;
+  text-align: center;
 
   .large-3 {
-    text-align: center;
 
     .button {
       width: 100%;
     }
   }
-  
+
   h1 {
     font-weight: 500;
     line-height: 1.1;
-    
+
     @media #{$large-up} {
       font-size: 63px;
     }
@@ -32,12 +35,4 @@ section {
   i {
     font-size: 20px;
   }
-}
-
-#about {
-  
-}
-
-#projects {
-  
 }
